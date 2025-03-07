@@ -41,7 +41,8 @@ const skillsData = [
         "description": "Years of experience developing Unreal Engine games/experiences using C++ and Blueprint. Firm understanding of C++ API and Blueprint.",
         "icon": "fab fa-js",
         "customIcon": "svg/unreal-engine.svg",
-        "progressPercentage": 100
+        "progressPercentage": 100,
+        "svgScale": 100
     },
     {
         id: 2,
