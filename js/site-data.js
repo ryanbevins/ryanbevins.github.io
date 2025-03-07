@@ -7,7 +7,7 @@
 const heroData = {
     title: "Ryan Bevins",
     subtitle: "Game Development",
-    introText: "I am a software engineer with years of experience in Unreal Engine and Unity programming/game development, and I'd love to help out with your next project!",
+    introText: "I am a software engineer with years of experience in Unreal Engine, and I'd love to help out with your next project!",
     statusText: "Currently open for freelance projects."
 };
 
@@ -16,31 +16,32 @@ const studiosData = [
     {
         id: 1,
         name: "SimulaM",
-        description: "Currently work as lead programmer on various projects for SimulaM.",
+        description: "Worked as lead programmer on various projects for SimulaM.",
         logo: "images/simulam-logo.png"
     },
     {
         id: 2,
         name: "Vexle Studios",
         description: "Worked as character programmer for Vexle Studios on Landieval: Survive to Play.",
-        logo: "images/vexle-logo.png"
+        logo: "images/vexle.png"
     },
     {
         id: 3,
         name: "Exiled Republic Studios",
         description: "Worked for Exiled Republic Studios on Tales of Forgotten Heroes. Assistant/AI Programming work.",
-        logo: "images/exiled-logo.png"
+        logo: "images/exiled-republic.jpg"
     }
 ];
 
 // Skills Data
 const skillsData = [
     {
-        id: 1,
-        name: "Unreal Engine",
-        description: "Years of experience developing Unreal Engine games/experiences using C++ and Blueprint. Firm understanding of C++ API and Blueprint.",
-        icon: "fab fa-unreal",
-        progressPercentage: 100
+        "id": 1,
+        "name": "Unreal Engine",
+        "description": "Years of experience developing Unreal Engine games/experiences using C++ and Blueprint. Firm understanding of C++ API and Blueprint.",
+        "icon": "fab fa-js",
+        "customIcon": "svg/unreal-engine.svg",
+        "progressPercentage": 100
     },
     {
         id: 2,
